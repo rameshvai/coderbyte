@@ -1,1 +1,1 @@
-# JavaScript Trouts
+# JavaScript Tryouts
