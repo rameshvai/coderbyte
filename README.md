@@ -1,2 +1,1 @@
-# coderbyte
-Coderbyte tryouts
+# JavaScript Trouts
