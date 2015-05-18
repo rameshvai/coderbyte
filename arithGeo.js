@@ -4,10 +4,10 @@
 
 function arithGeo(arr) {
     var a = Math.abs(arr[1] - arr[0]), g = arr[1] / arr[0];
-    var A = false, G = false;
+    var A = true, G = true;
     for(i = 1; i < arr.length; i++) {
-        A = Math.abs(arr[i] - arr[i - 1]) === a;
-        G = arr[i] / arr[i - 1] === a;
+        A = A && Math.abs(arr[i] - arr[i - 1]) === a;
+        G = G && arr[i] / arr[i - 1] === a;
     }
     if(A) return "Arithmetic";
     if(G) return "Geometric";
