@@ -15,3 +15,4 @@ function primeTime(num) {
 console.log(primeTime(19));
 console.log(primeTime(21));
 console.log(primeTime(110));
+console.log(primeTime(3));
